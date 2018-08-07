@@ -9,3 +9,14 @@ describe('HelloWorld.vue', () => {
       .to.equal('Welcome to Your Vue.js App');
   });
 });
+
+/*
+import Vue from 'vue';
+import ImageBank from '../src/components/ImageBank.vue';
+
+describe('ImageBank', () => {
+  it('has the default variable', () => {
+    expect(ImageBank.data().message).not.toBe(null);
+  });
+});
+*/
